@@ -1,0 +1,19 @@
+C:\Users\Asus>nmap -sS ********/24
+Starting Nmap 7.98 ( https://nmap.org ) at 2025-10-20 21:19 +0530
+Nmap scan report for *********
+Host is up (0.00066s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE
+53/tcp open  domain
+MAC Address: ******** (Unknown)
+
+Nmap scan report for *******
+Host is up (0.0011s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT    STATE SERVICE
+135/tcp open  msrpc
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+
+
+Nmap done: 256 IP addresses (2 hosts up) scanned in 6.28 seconds
