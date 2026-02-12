@@ -1,3 +1,5 @@
+namp output :
+
 C:\Users\Asus>nmap -sS ********/24
 Starting Nmap 7.98 ( https://nmap.org ) at 2025-10-20 21:19 +0530
 Nmap scan report for *********
@@ -17,3 +19,44 @@ PORT    STATE SERVICE
 
 
 Nmap done: 256 IP addresses (2 hosts up) scanned in 6.28 seconds
+
+Interview Ques:
+
+1️. What is an open port?
+
+A port in LISTEN state where a service accepts connections.
+
+2️. How does Nmap perform SYN scan?
+
+By sending SYN packets and analyzing SYN-ACK responses without completing handshake.
+
+3️. Risks of open ports?
+
+Unauthorized access, service exploitation, information leakage.
+
+4️. TCP vs UDP scan?
+
+TCP: Connection-oriented
+UDP: Connectionless, slower, less reliable detection
+
+5️. How to secure open ports?
+
+Disable unused services
+
+Use firewall rules
+
+Implement IDS/IPS
+
+Use strong authentication
+
+6️. Firewall role?
+
+Filters inbound/outbound traffic based on rules.
+
+7️. Why attackers perform port scans?
+
+To identify attack vectors and vulnerable services.
+
+8. How Wireshark complements scanning?
+
+It verifies packet-level behavior of scan techniques.
